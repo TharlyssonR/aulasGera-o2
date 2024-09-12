@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th,tr{
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabelas</h1>
+
+    <h2>Tabelas simples</h2>
+
+    <table>
+        <tr>
+            <th>id_telefone</th>
+            <th>id_aluno</th>
+            <th>tipo</th>
+            <th>número</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>casa</td>
+            <td>(85) 4002-8922</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1</td>
+            <td>celular</td>
+            <td>(85) 8872-2788</td>
+        </tr>
+    </table>
+
+    <h2>Mesclagem de linhas</h2>
+    
+    <table>
+        <tr>
+            <th>Linguagem</th>
+            <th>Framework</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Python</td>
+            <td>Flask</td>
+        </tr>
+        <tr>
+            <td>FastAPI</td>
+        </tr>
+        <tr>
+            <td rowspan="2">JavaScript</td>
+            <td>Express</td>
+        </tr>
+        <tr>
+            <td>Angular</td>
+        </tr>
+    </table>
+    
+    <h2>Mesclagem de colunas</h2>
+
+    <table>
+        <tr>
+            <th>id_telefone</th>
+            <th>id_aluno</th>
+            <th>tipo</th>
+            <th>número</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>casa</td>
+            <td>(85) 4002-8922</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1</td>
+            <td colspan="2">celular</td>
+          
+        </tr>
+    </table>
+
+  
+
+    
+</body>
+</html>
