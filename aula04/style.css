@@ -1,0 +1,16 @@
+
+h1{
+    color:blue;
+    background-color: darkgray;
+    text-align: center;
+    font: size 36px; 
+}
+
+body{
+    background-color: black;
+}
+
+form{
+    background-color: azure;
+}
+
