@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(255, 77, 0);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin:auto;
+    
+
+}
+header nav a{
+    text-decoration:none;
+    color: hsl(220, 14%, 96%);
+}
+
+article{
+    width:50%;
+    height: 10%;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin: auto;
+    
+    
+}
+    
+footer{
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    background-color: white;
+}
