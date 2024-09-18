@@ -1,0 +1,111 @@
+/* colocar um *{} você pode definir uma informação para todo o código. no exemplo abaixo, retiramos todas os preenchimentos e as margens padrão de todo o código. São informações que serão usadas apenas pelo navegador*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /* linear-gradient serve para adicionar uma espécie de degradê no background */
+    background: linear-gradient(rgb(16,16,16,0.5),rgb(25,25,25,0.5)), url(img/css.jpeg);
+    background-position: center center;
+    /* background-size serve para definir o tamanho de como a imagem vai se ajustar na tela, e o "cover" serve para especificar que a imagem vai se ajustar conforme a tela que estou utilizando*/
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 6vw;
+     /* linear-gradient serve para adicionar uma espécie de degradê no background */
+    background: linear-gradient(rgba(230, 249, 20, 0.5),rgb(255, 111, 0)) ;
+}
+
+.menu{
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 1.8rem;
+    letter-spacing: 0,4rem;
+    cursor: pointer;
+}
+
+.menu .lista-menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu .lista-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition: 2ms ease-in;
+    position: relative;
+}
+
+.menu .lista-menu a::before{
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+.menu .lista-menu a:hover:before {
+    width: 100%;
+    background-color: yellow;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 228, 238);
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    font-size: 1.6rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1350px;
+    margin:0 auto;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
