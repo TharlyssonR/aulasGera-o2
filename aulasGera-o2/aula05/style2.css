@@ -18,7 +18,10 @@ body{
     background-position: center center;
     /* background-size serve para definir o tamanho de como a imagem vai se ajustar na tela, e o "cover" serve para especificar que a imagem vai se ajustar conforme a tela que estou utilizando*/
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
 }
+
 
 header{
     width: 100%;
@@ -38,9 +41,9 @@ header{
 }
 
 .logo{
-    font-size: 1.8rem;
-    letter-spacing: 0,4rem;
     cursor: pointer;
+    width: 5%;
+    margin-bottom: 10px;
 }
 
 .menu .lista-menu {
