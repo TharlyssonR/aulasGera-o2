@@ -42,7 +42,7 @@ header{
 
 .logo{
     cursor: pointer;
-    width: 5%;
+    width: 7%;
     margin-bottom: 10px;
 }
 
@@ -94,6 +94,68 @@ main {
     color: rgb(255, 228, 238);
     font-size: 20px;
 }
+.containerCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+ .subContainer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  
+    
+}
+.subContainer .image{
+    
+    width:100%;
+
+ 
+   
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+ 
+}
+
+.subContainer h1{
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+
+
+}
+.subContainer p{
+    font-size: 14px;
+    color: #555;
+}
+.subContainer button{
+    background-color: yellow;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+
+
+
+    
 
 footer {
     background-color: black;
